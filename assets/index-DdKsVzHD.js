@@ -16571,10 +16571,10 @@ function uD() {
                     children: "POPCATE",
                   }),
                   _.jsx("h4", {
-                    "data-text": "The Cutest Cate on BSC!",
+                    "data-text": "The Cutest Cate on ETH!",
                     className:
                       "text-3xl sm:text-5xl lg:text-4xl xl:text-5xl text-center text-white z-10",
-                    children: "The Cutest Cate on BSC!",
+                    children: "The Cutest Cate on ETH!",
                   }),
                 ],
               }),
