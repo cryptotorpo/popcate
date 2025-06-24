@@ -44580,7 +44580,7 @@ function WW() {
         }),
       }),
       _.jsx(br, {
-        href: `https://www.dextools.io/app/en/bnb/pair-explorer/0x089c50411887a026fc42dfcaaea33416784c15d2`,
+        href: `https://www.dextools.io`,
         target: "_blank",
         children: _.jsx(ct.img, {
           initial: { opacity: 0 },
@@ -44863,38 +44863,6 @@ function KW() {
 }
 function YW() {
   return _.jsxs("div", {
-    className:
-      "flex flex-col w-full items-center bg-white py-24 z-10 overflow-hidden relative",
-    id: "mememaker",
-    children: [
-      _.jsxs(ct.div, {
-        initial: { opacity: 0 },
-        whileInView: { opacity: 1 },
-        transition: { duration: 2 },
-        children: [
-          _.jsx("h2", {
-            "data-text": "Meme maker",
-            className: "text-peach-500 text-8xl md:text-9xl",
-            children: "Meme maker",
-          }),
-          _.jsx("h3", {
-            "data-text": "Coming soon",
-            className: "sm:text-6xl",
-            children: "Coming soon",
-          }),
-          _.jsx("img", {
-            src: "wel_2.gif",
-            width: "300",
-            style: { "margin-left": "auto","margin-right": "auto"},
-          }),
-        ],
-      }),
-      // _.jsx("div", { className: "flex w-full mt-20", children: _.jsx(LW, {}) }),
-      // _.jsx("div", {
-      //   className:
-      //     "absolute mt-20 -bottom-5 h-[42px] bg-cream-400 w-[105%] border-t-5 border-neutral-950 rotate-1",
-      // }),
-    ],
   });
 }
 const XW = "/assets/MoonBG-DPAxb-Xc.webp";
