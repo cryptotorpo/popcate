@@ -16749,7 +16749,7 @@ function dD() {
           "flex flex-row mt-12 lg:w-1/2 xl:max-w-[700px] items-center justify-center space-x-8",
         children: [
           _.jsx("a", {
-            href: `https://dexscreener.com/`,
+            href: `https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000`,
             className:
               "text-2xl bg-peach-400 hover:bg-peach-500 duration-300 hover:scale-105 hover:text-white px-5 py-3 rounded-md border-5 border-neutral-950",
             children: "BUY NOW",
@@ -25833,7 +25833,6 @@ function tB() {
     },
     o = {
       about: { name: "About", link: "#about" },
-      mememaker: { name: "Meme Maker", link: "#mememaker" },
       tokenomics: { name: "Tokenomics", link: "#tokenomics" },
       howtobuy: { name: "How to Buy", link: "#howtobuy" },
       community: { name: "Community", link: "#community" },
@@ -25918,7 +25917,7 @@ function tB() {
           _.jsx(l8, {
             className: "flex",
             children: _.jsx(br, {
-              href: `https://dexscreener.com/`,
+              href: `https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000`,
               className:
                 "bg-peach-500  hover:bg-peach-600 hover:scale-105 duration-600 px-4 border-2 border-neutral-950 rounded-md py-2 transition-all",
               children: _.jsx("h4", {
