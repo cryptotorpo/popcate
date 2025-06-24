@@ -10035,9 +10035,9 @@ const mT = R.forwardRef((t, e) => {
   wT = ({ children: t }) =>
     _.jsx(ys.Provider, {
       value: {
-        CAvalue: "0x39BC9d0bb965FBf9d585DB958EE7F7DB4187704B",
-        TwitterLink: "https://x.com/popcatebnb",
-        TelegramLink: "https://t.me/popcatebnb",
+        CAvalue: "0x00000000000000000000000000000000000000",
+        TwitterLink: "https://x.com/PopCateEth",
+        TelegramLink: "https://t.me/popcate",
       },
       children: t,
     }),
@@ -16749,7 +16749,7 @@ function dD() {
           "flex flex-row mt-12 lg:w-1/2 xl:max-w-[700px] items-center justify-center space-x-8",
         children: [
           _.jsx("a", {
-            href: `https://dexscreener.com/bsc/0x089c50411887a026fc42dfcaaea33416784c15d2`,
+            href: `https://dexscreener.com/`,
             className:
               "text-2xl bg-peach-400 hover:bg-peach-500 duration-300 hover:scale-105 hover:text-white px-5 py-3 rounded-md border-5 border-neutral-950",
             children: "BUY NOW",
@@ -25918,7 +25918,7 @@ function tB() {
           _.jsx(l8, {
             className: "flex",
             children: _.jsx(br, {
-              href: `https://dexscreener.com/bsc/0x089c50411887a026fc42dfcaaea33416784c15d2`,
+              href: `https://dexscreener.com/`,
               className:
                 "bg-peach-500  hover:bg-peach-600 hover:scale-105 duration-600 px-4 border-2 border-neutral-950 rounded-md py-2 transition-all",
               children: _.jsx("h4", {
@@ -25944,7 +25944,7 @@ function tB() {
           _.jsx(mb, { className: "my-4 bg-neutral-950/40" }),
           _.jsx(R1, {
             as: br,
-            href: `https://dexscreener.com/bsc/0x089c50411887a026fc42dfcaaea33416784c15d2`,
+            href: `https://dexscreener.com/`,
             target: "_blank",
             className: "bg-peach-500 border-2 border-neutral-950 rounded-md",
             children: _.jsx("h4", {
@@ -44431,30 +44431,30 @@ function zW() {
       },
       step2: {
         step: "2",
-        name: "Get Some BNB",
+        name: "Get Some ETH",
         image: OW,
         description:
-          "Have BNB in your wallet to switch to $POPCATE. If you don’t have any BNB, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.",
-        linkDesc: "BUY BNB",
+          "Have BNB in your wallet to switch to $POPCATE. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.",
+        linkDesc: "BUY ETH",
         link: "https://www.moonpay.io/",
         motion: 300,
       },
       step3: {
         step: "3",
-        name: "Go To Pancakeswap",
+        name: "Go To Uniswap",
         image: FW,
         description:
-          "Connect to Pancakeswap. Go to app.Pancakeswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $POPCATE token address into Pancakeswap, select Popcate, and confirm. When Metamask prompts you for a wallet signature, sign.",
+          "Connect to Uniswap. Go to app.Uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $POPCATE token address into Uniswap, select Popcate, and confirm. When Metamask prompts you for a wallet signature, sign.",
         linkDesc: "BUY POPCATE",
-        link: "https://pancakeswap.finance/swap?inputCurrency=0x39BC9d0bb965FBf9d585DB958EE7F7DB4187704B&outputCurrency=BNB",
+        link: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
         motion: -300,
       },
       step4: {
         step: "4",
-        name: "Switch BNB for $POPCATE",
+        name: "Switch ETH for $POPCATE",
         image: BW,
         description:
-          "switch BNB for $POPCATE. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.",
+          "switch ETH for $POPCATE. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.",
         linkDesc: "JOIN US",
         link: `${e}`,
         motion: 300,
@@ -44570,7 +44570,7 @@ function WW() {
       //   }),
       // }),
       _.jsx(br, {
-        href: `https://dexscreener.com/bsc/0x089c50411887a026fc42dfcaaea33416784c15d2`,
+        href: `https://dexscreener.com/`,
         target: "_blank",
         children: _.jsx(ct.img, {
           initial: { opacity: 0 },
@@ -44937,11 +44937,11 @@ function ZW() {
       _.jsx("div", {
         className: "flex space-x-8 items-center mt-14",
         children: _.jsx("a", {
-          href: "https://docs.moonshot.cc/faq#whats-launch-lock-and-earn",
+          href: "https://t.me/popcate",
           target: "_blank",
           className:
             "text-2xl bg-peach-400 hover:bg-peach-500 duration-300 hover:scale-105 hover:text-white px-5 py-3 rounded-md border-5 border-neutral-950",
-          children: "LEARN MORE",
+          children: "Join US",
         }),
       }),
       _.jsx("div", {
@@ -44983,9 +44983,9 @@ function JW() {
                 className:
                   "flex w-full py-4 bg-peach-400 border-t-5 border-neutral-950 items-center justify-center text-white",
                 children: _.jsx("h4", {
-                  "data-text": "POPCATE - All Rights Reserved 2024",
+                  "data-text": "POPCATE - All Rights Reserved 2025",
                   className: "text-lg z-10",
-                  children: "POPCATE - All Rights Reserved 2024",
+                  children: "POPCATE - All Rights Reserved 2025",
                 }),
               }),
             ],
